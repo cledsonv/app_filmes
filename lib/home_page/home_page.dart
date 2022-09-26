@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
     return const Scaffold(
       backgroundColor: kPrimaryColor,
       bottomNavigationBar: NavigatorPage(),
-      body: ImagensFilmes(),
+      body: Catalogo(),
     );
   }
 }
