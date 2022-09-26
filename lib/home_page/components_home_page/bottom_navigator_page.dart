@@ -27,7 +27,7 @@ class _NavigatorPageState extends State<NavigatorPage> {
             selectedColor: kBackgroundColor,
           ),
 
-          /// Likes
+          /// Lista
           SalomonBottomBarItem(
             icon: const Icon(Icons.list),
             title: const Text("Categorias"),

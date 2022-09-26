@@ -9,9 +9,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kPrimaryColor,
-      bottomNavigationBar: 
-      
-      NavigatorPage(),
+      bottomNavigationBar: NavigatorPage(),
+      body: Container(
+        color: Colors.redAccent,
+        child: Row(
+          
+          children: [],
+        ),
+      ),
     );
   }
 }
