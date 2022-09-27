@@ -3,6 +3,8 @@ import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import 'package:testando_widgets/categorias_page/categories_page.dart';
 import 'package:testando_widgets/components/constant.dart';
 
+import '../home_page/home_page.dart';
+
 class NavigatorPage extends StatefulWidget {
   const NavigatorPage({super.key});
 
@@ -13,9 +15,7 @@ class NavigatorPage extends StatefulWidget {
 class _NavigatorPageState extends State<NavigatorPage> {
   var _currentIndex = 0;
   static const List<Widget> _telasUsadas = [
-    Text(
-      'Index 0: Home',
-    ),
+    HomePage(),
     CategoryPage(),
     Text(
       'Index 2: School',
