@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:testando_widgets/components/imagens_filmes.dart';
 import '../components/constant.dart';
-
 import 'package:easy_scroll_animation/easy_scroll_animation.dart';
 
 class HomePage extends StatelessWidget {
