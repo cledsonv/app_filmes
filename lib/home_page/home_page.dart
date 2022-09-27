@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../components/constant.dart';
-import 'components_home_page/bottom_navigator_page.dart';
+
 import 'package:easy_scroll_animation/easy_scroll_animation.dart';
 
 class HomePage extends StatelessWidget {
@@ -8,13 +8,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: kPrimaryColor,
-      bottomNavigationBar: NavigatorPage(),
       body: EasyAnimatedScroll(
-        topAnimationDuration: Duration(milliseconds: 200),
-        bottomAnimationDuration: Duration(milliseconds: 200),
+        topAnimationDuration: const Duration(milliseconds: 200),
+        bottomAnimationDuration: const Duration(milliseconds: 200),
         topWidget: AppBar(
           backgroundColor: kSecondaryColor,
           leading: Padding(
