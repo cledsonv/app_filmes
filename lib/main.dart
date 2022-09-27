@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.amber,
       ),
-      home: const PrincipalBody(),
+      home: PrincipalBody(),
+      
     );
   }
 }
