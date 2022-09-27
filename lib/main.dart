@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:testando_widgets/body.dart';
-import 'package:testando_widgets/components/constant.dart';
+
 
 void main() {
   runApp(const MyApp());
