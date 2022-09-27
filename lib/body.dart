@@ -14,7 +14,7 @@ class _PrincipalBodyState extends State<PrincipalBody> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: HomePage(),
+      body: SafeArea(child: HomePage()),
       bottomNavigationBar: NavigatorPage(),
     );
   }
